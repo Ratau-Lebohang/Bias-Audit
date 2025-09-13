@@ -71,7 +71,7 @@ This project conducts a **fairness and bias audit** on a credit card approval da
 
 ---
 
-## 📌 Conclusion  
+## Conclusion  
 The audit revealed **systematic bias** against women, certain ethnic groups, and non-citizens.  
 While mitigation techniques improved fairness, **long-term solutions** require better data practices, continuous monitoring, and ethical AI adoption.  
 
