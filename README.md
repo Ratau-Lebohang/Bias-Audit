@@ -1,11 +1,11 @@
-# 📊 Credit Card Approval – Bias & Fairness Audit  
+# Credit Card Approval – Bias & Fairness Audit  
 
 This project conducts a **fairness and bias audit** on a credit card approval dataset.  
 The main objective is to assess whether sensitive attributes such as **Gender, Ethnicity, and Citizenship** unfairly influence approval outcomes, evaluate fairness metrics, apply bias mitigation strategies, and provide recommendations aligned with **ethical AI practices**.  
 
 ---
 
-## 🔍 Project Objectives  
+## Project Objectives  
 - Audit the dataset for potential **bias and discrimination**.  
 - Evaluate fairness using multiple **fairness metrics**.  
 - Apply **bias mitigation techniques**.  
@@ -13,15 +13,14 @@ The main objective is to assess whether sensitive attributes such as **Gender, E
 
 ---
 
-## 📂 Dataset  
-- **Source:** Kaggle – Credit Card Approval (Clean Data)  
-- **Size:** 690 records, 14 features  
+## Dataset  
+- **Source:** Kaggle – Credit Card Approval (Clean Data)  https://www.kaggle.com/datasets/samuelcortinhas/credit-card-approval-clean-data  
 - **Sensitive Attributes:** Gender, Ethnicity, Citizenship  
 - **Target Variable:** Approval (1 = approved, 0 = not approved)  
 
 ---
 
-## ⚙️ Methods  
+## Methods  
 
 ### 1. Data Cleaning & Preprocessing  
 - Standardized numerical and categorical features.  
@@ -43,7 +42,7 @@ The main objective is to assess whether sensitive attributes such as **Gender, E
 
 ---
 
-## 📑 Findings  
+## Findings  
 
 ### Bias Analysis  
 - **Gender:** Males had higher approval rates compared to females.  
@@ -54,9 +53,9 @@ The main objective is to assess whether sensitive attributes such as **Gender, E
 
 | Metric             | Finding                                   | Bias Detected |
 |--------------------|-------------------------------------------|---------------|
-| Demographic Parity | Approval rates unequal across groups       | ✅ Yes |
-| Equal Opportunity  | Qualified applicants treated unequally     | ✅ Yes |
-| Disparate Impact   | Females & non-citizens < 0.8 ratio threshold | ✅ Yes |
+| Demographic Parity | Approval rates unequal across groups       | Yes |
+| Equal Opportunity  | Qualified applicants treated unequally     | Yes |
+| Disparate Impact   | Females & non-citizens < 0.8 ratio threshold | Yes |
 
 ### Bias Mitigation Results  
 - Disparities reduced after applying **reweighing** and **fairness-aware models**.  
@@ -64,7 +63,7 @@ The main objective is to assess whether sensitive attributes such as **Gender, E
 
 ---
 
-## ✅ Recommendations  
+## Recommendations  
 - Use **fairness-aware algorithms** in production systems.  
 - Conduct **regular audits** with fairness metrics.  
 - Collect **more representative datasets** to reduce systemic bias.  
