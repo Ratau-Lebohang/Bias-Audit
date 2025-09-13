@@ -13,7 +13,7 @@ This project conducts a **fairness and bias audit** on a credit card approval da
 ---
 
 ## Dataset  
-- **Source:** Kaggle – [Credit Card Approval Clean Data] (https://www.kaggle.com/datasets/samuelcortinhas/credit-card-approval-clean-data)
+- **Source:** Kaggle – [Credit Card Approval Clean Data](https://www.kaggle.com/datasets/samuelcortinhas/credit-card-approval-clean-data)
 - **Sensitive Attributes:** Gender, Ethnicity, Citizenship  
 - **Target Variable:** Approval (1 = approved, 0 = not approved)  
 
