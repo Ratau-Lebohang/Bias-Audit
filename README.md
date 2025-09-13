@@ -1,7 +1,6 @@
 # Credit Card Approval – Bias & Fairness Audit  
 
-This project conducts a **fairness and bias audit** on a credit card approval dataset.  
-The main objective is to assess whether sensitive attributes such as **Gender, Ethnicity, and Citizenship** unfairly influence approval outcomes, evaluate fairness metrics, apply bias mitigation strategies, and provide recommendations aligned with **ethical AI practices**.  
+This project conducts a **fairness and bias audit** on a credit card approval dataset. The main objective is to assess whether sensitive attributes such as **Gender, Ethnicity, and Citizenship** unfairly influence approval outcomes, evaluate fairness metrics, apply bias mitigation strategies, and provide recommendations aligned with **ethical AI practices**.  
 
 ---
 
@@ -14,7 +13,7 @@ The main objective is to assess whether sensitive attributes such as **Gender, E
 ---
 
 ## Dataset  
-- **Source:** Kaggle – [Credit Card Approval (Clean Data)] (https://www.kaggle.com/datasets/samuelcortinhas/credit-card-approval-clean-data)
+- **Source:** Kaggle – [Credit Card Approval Clean Data] (https://www.kaggle.com/datasets/samuelcortinhas/credit-card-approval-clean-data)
 - **Sensitive Attributes:** Gender, Ethnicity, Citizenship  
 - **Target Variable:** Approval (1 = approved, 0 = not approved)  
 
