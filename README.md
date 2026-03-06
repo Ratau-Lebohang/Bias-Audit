@@ -1,6 +1,7 @@
 # Credit Card Approval – Bias & Fairness Audit  
 
 - [🌐 View Live Demo](https://ratau-lebohang.github.io/Bias-Audit/)
+-  [🌐 View Live Demo](Audit Bias Notebook.ipynb)
   ---
 
 This project conducts a **fairness and bias audit** on a credit card approval dataset. The main objective is to assess whether sensitive attributes such as **Gender, Ethnicity, and Citizenship** unfairly influence approval outcomes, evaluate fairness metrics, apply bias mitigation strategies, and provide recommendations aligned with **ethical AI practices**.  
